@@ -61,11 +61,10 @@ class HashMap(object):
 
 
 h = HashMap()
-h.add(26, "Blesson")
-h.add(26, "Manu")
+h.add(314, "Pi")
 h.add("I am", "Batman")
 print(h.get("I am"))
-print(h.get(26))
+print(h.get(314))
 print(h.contains(6))
 print(h.delete(26))
 print(h.delete(1))
