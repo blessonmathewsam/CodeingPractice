@@ -43,6 +43,22 @@ class HashMap(object):
 		for each in list:
 			if each[0] == key:
 				return each[1]
+		return None
+
+	def contains(self, key):
+		if self.get(key) is None:
+			return False
+		else:
+			return True
+
+	def	delete(self, key):
+		list = self.map[self.hashfunction(key)]
+		for each in list:
+			if each[0] == key:
+				list.remove((each[0], each[1]))
+				return True
+		return False
+
 
 h = HashMap()
 h.add(26, "Blesson")
@@ -50,3 +66,6 @@ h.add(26, "Manu")
 h.add("I am", "Batman")
 print(h.get("I am"))
 print(h.get(26))
+print(h.contains(6))
+print(h.delete(26))
+print(h.delete(1))
