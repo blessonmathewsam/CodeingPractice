@@ -1,3 +1,4 @@
+package Arrays;
 import java.util.Scanner;
 
 /**
@@ -8,7 +9,7 @@ import java.util.Scanner;
  * @author blessonm
  *
  */
-public class CardGame {
+public class CardGame { 
 
 	/**
 	 * @param args

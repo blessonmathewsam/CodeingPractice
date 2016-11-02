@@ -1,8 +1,9 @@
+package Arrays;
 import java.util.Arrays;
 import java.util.Scanner;
 
 /**
- * 
+ * Find number of elements less than or equal to each element in second array present in first array.
  */
 
 /**

@@ -44,7 +44,7 @@ class HashMap(object):
 			if each[0] == key:
 				return each[1]
 		return None
-
+ 
 	def contains(self, key):
 		if self.get(key) is None:
 			return False
@@ -66,5 +66,4 @@ h.add("I am", "Batman")
 print(h.get("I am"))
 print(h.get(314))
 print(h.contains(6))
-print(h.delete(26))
-print(h.delete(1))
+print(h.delete(314))

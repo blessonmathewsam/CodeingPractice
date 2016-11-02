@@ -1,3 +1,4 @@
+package Strings;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -16,7 +17,7 @@ public class PalindromePairs {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		System.out.println(palindromePairs(new String[]{"a", ""}));
+		System.out.println(palindromePairs(new String[]{"ab", "a"}));
 	}
 
 	public static List<List<Integer>> palindromePairs(String[] words) {

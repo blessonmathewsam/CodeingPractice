@@ -1,7 +1,8 @@
+package Arrays;
 import java.util.Scanner;
 
 /**
- * 
+ * Number of ways an array can be divided into 3 equal parts
  */
 
 /**

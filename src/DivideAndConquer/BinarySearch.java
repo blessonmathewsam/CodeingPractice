@@ -1,3 +1,4 @@
+package DivideAndConquer;
 import java.util.Scanner;
 
 public class BinarySearch {
